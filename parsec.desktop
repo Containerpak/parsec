@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Parsec
+Comment=Connect to remote computers with low-latency streaming.
+Exec=parsec %U
+Icon=parsec
+Terminal=false
+Categories=Network;RemoteAccess;
+
