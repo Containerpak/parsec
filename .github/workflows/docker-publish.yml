@@ -50,7 +50,6 @@ jobs:
           provenance: mode=max
           sbom: true
       - name: Verify package
-        run: docker run --rm ghcr.io/containerpak/parsec:main sh -c 'test -x /usr/bin/parsec && test -f /usr/share/applications/parsec.desktop'
+        run: docker run --rm ghcr.io/containerpak/parsec:main sh -c 'test -x /usr/bin/parsecd && test -f /usr/share/applications/parsec.desktop'
       - name: Publish summary
         run: echo "ghcr.io/containerpak/parsec@${{ steps.build.outputs.digest }}" >> "${GITHUB_STEP_SUMMARY}"
-

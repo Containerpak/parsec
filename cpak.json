@@ -6,7 +6,7 @@
   "version": "3.9.9",
   "image": "ghcr.io/containerpak/parsec:main",
   "binaries": [
-    "/usr/bin/parsec"
+    "/usr/bin/parsecd"
   ],
   "desktop_entries": [
     "/usr/share/applications/parsec.desktop"
@@ -57,4 +57,3 @@
     "allowedHostCommands": []
   }
 }
-
