@@ -5,6 +5,7 @@
   "description": "Connect to remote computers with low-latency streaming.",
   "version": "3.9.9",
   "image": "ghcr.io/containerpak/parsec:main",
+  "runtime_sources": [{"name": "parsec_150-104a_amd64.deb", "url": "https://builds.parsecgaming.com/package/parsec-linux.deb", "sha256": "c8a4407713d72dcb1c59f082977e81e1b9e8ffd679d0666882cde4c8a0821dd2", "size": 1517706, "installer": "dpkg"}],
   "binaries": [
     "/usr/bin/parsecd"
   ],
