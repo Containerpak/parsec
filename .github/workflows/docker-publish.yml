@@ -49,8 +49,8 @@ jobs:
           cache-to: type=gha,mode=max
           provenance: mode=max
           sbom: true
-      - name: Verify package
-        run: docker run --rm ghcr.io/containerpak/parsec:main sh -c 'test -x /usr/bin/parsecd && test -f /usr/share/applications/parsec.desktop'
+      - name: Verify adapter
+        run: docker run --rm ghcr.io/containerpak/parsec:main sh -c 'test ! -e /usr/bin/parsecd && test -f /usr/share/applications/parsec.desktop && test -f /usr/share/icons/hicolor/128x128/apps/parsec.png'
       - name: Publish summary
         run: echo "ghcr.io/containerpak/parsec@${{ steps.build.outputs.digest }}" >> "${GITHUB_STEP_SUMMARY}"
 
