@@ -4,7 +4,7 @@
   "name": "Parsec",
   "description": "Connect to remote computers with low-latency streaming.",
   "version": "3.9.9",
-  "image": "ghcr.io/containerpak/parsec@sha256:8e50323aadadfde9cc213bc51470ba17bb1f800236d630ff484f47df97d8cb51",
+  "image": "ghcr.io/containerpak/parsec@sha256:cdad36e7fa902befe1211ec86eb302142c66dd41d7669de37292b6a1c167bdc4",
   "runtime_sources": [
     {
       "name": "parsec_150-104a_amd64.deb",
